@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chenxu Liu | 刘宸绪</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo" data-i18n="nav.logo">Chenxu Liu</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#research" data-i18n="nav.research">Research</a></li>
+            <li><a href="#publications" data-i18n="nav.publications">Publications</a></li>
+            <li><a href="#awards" data-i18n="nav.awards">Awards</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        </ul>
+        <button class="lang-toggle" id="lang-toggle" title="Switch Language">
+            <span class="lang-label" data-lang="en">中文</span>
+            <span class="lang-label" data-lang="zh" style="display:none">EN</span>
+        </button>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero" id="about">
+    <div class="hero-container">
+        <div class="hero-photo">
+            <div class="photo-placeholder">
+                <img src="2.jpg" alt="Chenxu Liu">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 data-i18n="hero.name">Chenxu Liu <span class="name-cn">刘宸绪</span></h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Ph.D. Candidate in Computer Software and Theory</p>
+            <p class="hero-affiliation" data-i18n="hero.affiliation"><a href="https://www.pku.edu.cn" target="_blank">Peking University</a>, School of Computer Science</p>
+            <p class="hero-graduation" data-i18n="hero.graduation">Expected graduation: June 2026 (I'm on the Job Market!)</p>
+            <p class="hero-advisor" data-i18n="hero.advisor">Advisor: <a href="https://taoxiease.github.io" target="_blank">Prof. Tao Xie</a> <span class="advisor-note">(Member of Academia Europaea, ACM/IEEE/AAAS/CCF/CIE Fellow)</span></p>
+            <p class="hero-advisor" data-i18n="hero.collaborators">Co-advisors: <a href="https://profiles.utdallas.edu/wei.yang" target="_blank">Prof. Wei Yang</a>, <a href="https://faculty.pku.edu.cn/zhangying" target="_blank">Prof. Ying Zhang</a></p>
+            <div class="hero-links">
+                <a href="mailto:chenxuliu@foxmail.com" title="Email"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://scholar.google.com/citations?user=d9M9K9UAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Research Interests -->
+<section class="section" id="research">
+    <div class="container">
+        <h2 class="section-title" data-i18n="research.title">Research Interests</h2>
+        <div class="research-intro">
+            <p data-i18n="research.intro">My existing research focuses on <strong>quality assurance and testing of graphical user interfaces (GUI)</strong>, especially web GUI. I integrate traditional algorithms with deep learning models, large language models, and GUI agents to improve testing effectiveness.</p>
+            <p data-i18n="research.second" style="margin-top: 12px;">My recent and future work focuses on <strong>GUI agents and agentic AI</strong>, with the goal of building practical and safe intelligent assistants. My work includes, but is not limited to: 1. Evaluation of agents under realistic usage scenarios; 2. Agents that are highly reliable, secure, and interpretable; 3. Agents that integrate GUI and CLI, as well as agents that combine cloud and edge environments.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Publications -->
+<section class="section section-alt" id="publications">
+    <div class="container">
+        <h2 class="section-title" data-i18n="pub.title">Publications</h2>
+        <p class="section-subtitle" data-i18n="pub.subtitle">Total citations: 470+ &nbsp;|&nbsp; * indicates equal contribution</p>
+
+        <ol class="publication-list">
+            <li class="pub-item">
+                <span class="pub-title">Judge: Effective State Abstraction for Guiding Automated Web GUI Testing</span>
+                <span class="pub-authors"><u>Chenxu Liu</u>, Junheng Wang, Wei Yang, Ying Zhang, Tao Xie</span>
+                <span class="pub-venue">ACM Transactions on Software Engineering and Methodology (TOSEM), 2025</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Booster: Effective and Efficient Web GUI Trace Reduction Based on Multi-Level State Abstraction and Time-Guided Hierarchical Delta Debugging</span>
+                <span class="pub-authors"><u>Chenxu Liu</u>, Junheng Wang, Zihe Song, Wei Yang, Ying Zhang, Tao Xie</span>
+                <span class="pub-venue">ACM Transactions on Software Engineering and Methodology (TOSEM), 2026</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">WebCoderBench: Benchmarking Web Application Generation with Comprehensive and Interpretable Evaluation Metrics</span>
+                <span class="pub-authors"><u>Chenxu Liu</u>, Yingjie Fu, Wei Yang, Ying Zhang, Tao Xie</span>
+                <span class="pub-venue">Submitted to ACL'26</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">ResTest: Targeted Coverage of Residual Uncovered Code Using Large Language Models for Web GUI Testing</span>
+                <span class="pub-authors"><u>Chenxu Liu</u>, Zhiyu Gu, Guoquan Wu, Wei Yang, Ying Zhang, Jun Wei, Tao Xie</span>
+                <span class="pub-venue">Submitted to ISSTA'26</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Understanding Automated Web GUI Testing: An Empirical Study Across Exploration Strategies and State Abstractions</span>
+                <span class="pub-authors"><u>Chenxu Liu</u>, Wei Yang, Ying Zhang, Tao Xie</span>
+                <span class="pub-venue">Submitted to TOSEM'26</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Deep Reinforcement Learning for Automated Web GUI Testing</span>
+                <span class="pub-authors">Zhiyu Gu, <u>Chenxu Liu</u>, Guoquan Wu, Yifei Zhang, ChenXi Yang, Zheheng Liang, Wei Chen, Jun Wei</span>
+                <span class="pub-venue">Submitted to TOSEM'26</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Automated Visual Testing for Mobile Apps in an Industrial Setting</span>
+                <span class="pub-authors">Dezhi Ran, Zongyang Li, <u>Chenxu Liu</u>, Wenyu Wang, Weizhi Meng, Xionglin Wu, Hui Jin, Jing Cui, Xing Tang, Tao Xie</span>
+                <span class="pub-venue">ICSE 2022 (SEIP Track)</span>
+                <span class="pub-badge">CCF-A</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Inter-Hours Rolling Scheduling of Behind-the-Meter Storage Operating Systems Using Electricity Price Forecasting Based on Deep Convolutional Neural Network</span>
+                <span class="pub-authors">Zhuofu Deng, <u>Chenxu Liu</u>, Zhiliang Zhu</span>
+                <span class="pub-venue">International Journal of Electrical Power & Energy Systems (IJEPES), 2021</span>
+                <span class="pub-badge">SCI Q1 &middot; ESI Highly Cited</span>
+            </li>
+            <li class="pub-item">
+                <span class="pub-title">Multi-Scale Convolutional Neural Network with Time-Cognition for Multi-Step Short-Term Load Forecasting</span>
+                <span class="pub-authors">Zhuofu Deng, Binbin Wang, Yanlu Xu, Tengteng Xu, <u>Chenxu Liu</u>, Zhiliang Zhu</span>
+                <span class="pub-venue">IEEE Access, 2019</span>
+                <span class="pub-badge">SCI Q1</span>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- Awards -->
+<section class="section" id="awards">
+    <div class="container">
+        <h2 class="section-title" data-i18n="awards.title">Selected Awards & Honors</h2>
+        <div class="awards-grid">
+            <div class="award-category">
+                <h3><i class="fas fa-trophy"></i> <span data-i18n="awards.honors">Honors</span></h3>
+                <ul>
+                    <li data-i18n="awards.h1">May Fourth Medal, Northeastern University</li>
+                    <li data-i18n="awards.h2">President's Medal, Northeastern University</li>
+                    <li data-i18n="awards.h3">Merit Student, Peking University</li>
+                    <li data-i18n="awards.h4">Outstanding League Cadre, Peking University</li>
+                    <!-- <li data-i18n="awards.h5">Social Work Award, Peking University</li> -->
+                </ul>
+            </div>
+            <div class="award-category">
+                <h3><i class="fas fa-medal"></i> <span data-i18n="awards.scholarships">Scholarships</span></h3>
+                <ul>
+                    <li data-i18n="awards.s1">National Scholarship (three times)</li>
+                    <li data-i18n="awards.s2">Baosteel Outstanding Student Scholarship</li>
+                    <li data-i18n="awards.s3">First-Class Scholarship, Peking University</li>
+                </ul>
+            </div>
+            <div class="award-category">
+                <h3><i class="fas fa-award"></i> <span data-i18n="awards.competitions">Competitions</span></h3>
+                <ul>
+                    <li data-i18n="awards.c1">National English Competition for College Students, <strong>Grand Prize</strong></li>
+                    <li data-i18n="awards.c2">Mathematical Contest in Modeling (MCM/ICM), <strong>Meritorious Winner</strong></li>
+                    <!-- <li data-i18n="awards.c3">10+ competition awards at national and international levels</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience -->
+<section class="section section-alt" id="experience">
+    <div class="container">
+        <h2 class="section-title" data-i18n="exp.title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2025.10 - 2026.01</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp.e1.name">Douyin (ByteDance)</h3>
+                    <p class="timeline-role" data-i18n="exp.e1.role">Product & R&D Engineering Architecture - AI Product</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022.07 - 2025.07</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp.e2.name">Beijing DataStand Technology Co., Ltd.</h3>
+                    <p class="timeline-role" data-i18n="exp.e2.role">Student Researcher</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2020.08 - 2022.03</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp.e3.name">Alibaba (Taobao)</h3>
+                    <p class="timeline-role" data-i18n="exp.e3.role">Research Intern &middot; Test Development Engineer</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022.09 - 2025.09</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp.e4.name">Peking University, School of Computer Science</h3>
+                    <p class="timeline-role" data-i18n="exp.e4.role">Student Director, Party Building Center (Training & Education)</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2017.09 - 2020.09</div>
+                <div class="timeline-content">
+                    <h3 data-i18n="exp.e5.name">Northeastern University</h3>
+                    <p class="timeline-role" data-i18n="exp.e5.role">Vice President & Director of Publicity, Student Science & Technology Association</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<section class="section" id="education">
+    <div class="container">
+        <h2 class="section-title" data-i18n="edu.title">Education</h2>
+        <div class="education-grid">
+            <div class="edu-card">
+                <div class="edu-logo">PKU</div>
+                <h3 data-i18n="edu.pku.name">Peking University</h3>
+                <p class="edu-degree" data-i18n="edu.pku.degree">Ph.D. in Computer Software and Theory</p>
+                <p class="edu-date" data-i18n="edu.pku.date">2021.09 - 2026.06 (Expected)</p>
+            </div>
+            <div class="edu-card">
+                <div class="edu-logo">NEU</div>
+                <h3 data-i18n="edu.neu.name">Northeastern University</h3>
+                <p class="edu-degree" data-i18n="edu.neu.degree">B.E. in Software Engineering</p>
+                <p class="edu-date">2017.09 - 2021.08</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p data-i18n="footer">&copy; 2026 Chenxu Liu. Last updated: April 2026.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
