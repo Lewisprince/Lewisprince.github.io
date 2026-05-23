@@ -215,6 +215,11 @@ a:hover {
     margin-bottom: 4px;
 }
 
+.hero-workplace {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
 .hero-graduation {
     font-size: 14px;
     color: var(--color-text-light);
