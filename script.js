@@ -1,41 +1,33 @@
 // ===== i18n Translations =====
 const translations = {
     en: {
-        'nav.logo': 'Chenxu Liu',
+        'nav.skip': 'Skip to content',
+        'hero.scholarNote': 'For my full publication list and citations, visit Google Scholar.',
+        'hero.focus': 'Research focus',
+        'exp.current': 'Current',
+        'exp.currentDate': '2026.05 — Present',
+        'services.note': 'Including assisting with reviews',
+        'footer.top': 'Back to top',
         'nav.about': 'About',
-        'nav.research': 'Research Interests',
-        'nav.publications': 'Publications',
+        'nav.research': 'Research',
         'nav.awards': 'Awards',
         'nav.experience': 'Experience',
         'nav.services': 'Services',
         'hero.name': 'Chenxu Liu <span class="name-cn">刘宸绪</span>',
         'hero.subtitle': 'Ph.D. (Computer Software and Theory)',
-        'hero.workplace': '<a href="https://hunyuan.tencent.com/" target="_blank">Tencent Hunyuan</a>, Researcher',
-        'hero.affiliation': 'Graduated from: <a href="https://www.pku.edu.cn" target="_blank">Peking University</a>, <a href="https://cs.pku.edu.cn/" target="_blank">School of Computer Science</a>',
-        // 'hero.graduation': "Expected graduation: June 2026 (I'm on the Job Market!)",
-        'hero.advisor': 'Advisor: <a href="https://taoxiease.github.io" target="_blank">Prof. Tao Xie</a> <span class="advisor-note">(Member of Academia Europaea, ACM/IEEE/AAAS/CCF/CIE Fellow)</span>',
-        'hero.collaborators': 'Co-advisors: <a href="https://profiles.utdallas.edu/wei.yang" target="_blank">Prof. Wei Yang</a>, <a href="https://faculty.pku.edu.cn/zhangying" target="_blank">Prof. Ying Zhang</a>',
+        'hero.workplace': '<a href="https://hunyuan.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent Hunyuan</a>, Researcher',
+        'hero.affiliation': 'Graduated from: <a href="https://www.pku.edu.cn" target="_blank" rel="noopener noreferrer">Peking University</a>, <a href="https://cs.pku.edu.cn/" target="_blank" rel="noopener noreferrer">School of Computer Science</a>',
+        'hero.advisor': 'Advisor: <a href="https://taoxiease.github.io" target="_blank" rel="noopener noreferrer">Prof. Tao Xie</a> <span class="advisor-note">(Member of Academia Europaea, ACM/IEEE/AAAS/CCF/CIE Fellow)</span>',
+        'hero.collaborators': 'Co-advisors: <a href="https://profiles.utdallas.edu/wei.yang" target="_blank" rel="noopener noreferrer">Prof. Wei Yang</a>, <a href="https://faculty.pku.edu.cn/zhangying" target="_blank" rel="noopener noreferrer">Prof. Ying Zhang</a>',
         'research.title': 'Research Interests',
-        'research.intro': 'My Ph.D. research topics focus on <strong>quality assurance and testing of graphical user interfaces (GUI)</strong>, especially web GUI testing. I integrate traditional algorithms with deep learning models, large language models, and GUI agents to improve testing effectiveness.',
-        'research.second': 'My recent and future work focuses on <strong>Code agent and GUI agent</strong>. My work includes, but is not limited to: 1. Evaluation of front-end capabilities (static & interactive); 2. Evaluation of user agents under realistic usage scenarios; 3. Agents that are highly reliable, secure, and interpretable; 4. Agents that integrate GUI and CLI, as well as agents that combine cloud and edge environments.',
-        'research.card1.title': 'State Abstraction',
-        'research.card1.desc': 'Designed structural merging algorithms and contrastive learning models to precisely cluster pages with duplicate functionalities, significantly reducing redundant exploration and improving test coverage.',
-        'research.card2.title': 'Exploration Strategy',
-        'research.card2.desc': 'Combined reinforcement learning for fast exploration with LLM-powered analysis to identify uncovered functionalities, then leveraged GUI agents for targeted coverage of residual code.',
-        'research.card3.title': 'Test Reduction',
-        'research.card3.desc': 'Developed multi-level state abstraction combined with Delta Debugging to effectively reduce lengthy action sequences to minimal fault-reproducing traces, greatly reducing developer effort.',
-        'research.card4.title': 'GUI/CLI Agents & Agentic AI',
-        'research.card4.desc': 'Evaluating GUI agents in real-world scenarios (fuzzy requirements, cross-app tasks, system API calls). Investigating agent explainability, safety, trustworthiness, personalization, and cloud-edge fusion.',
-        'research.card4.tag': 'Ongoing',
-        'pub.title': 'Publications',
-        'pub.subtitle': 'Total citations: 510+ &nbsp;|&nbsp; * indicates corresponding author',
+        'research.second': 'My current and future work focuses on <strong>Code Agent and GUI Agent</strong>, with the goal of evaluating and building practical, reliable agents for real-world use. My work includes open-ended evaluation of static and interactive front-end capabilities; evaluation of user agents in realistic usage scenarios; reliable, secure, and interpretable agents; and agents that connect GUI and CLI and bridge cloud and edge environments.',
+        'research.intro': 'My Ph.D. research focuses on <strong>quality assurance and testing of graphical user interfaces (GUI)</strong>, especially web GUI testing. I integrate traditional algorithms with deep learning models, large language models, and GUI agents to improve testing effectiveness.',
         'awards.title': 'Selected Awards & Honors',
         'awards.honors': 'Honors',
         'awards.h1': 'May Fourth Medal, Northeastern University',
         'awards.h2': "President's Medal, Northeastern University",
         'awards.h3': 'Merit Student, Peking University',
         'awards.h4': 'Outstanding League Cadre, Peking University',
-        'awards.h5': 'Social Work Award, Peking University',
         'awards.scholarships': 'Scholarships',
         'awards.s1': 'National Scholarship (three times)',
         'awards.s2': 'Baosteel Outstanding Student Scholarship',
@@ -57,7 +49,7 @@ const translations = {
         'exp.e5.role': 'Vice President & Director of Publicity Center',
         'exp.e6.name': 'Tencent Hunyuan',
         'exp.e6.role': 'Researcher',
-        'services.title': 'Professional Services (including assisting)',
+        'services.title': 'Professional Services',
         'services.reviewer': 'Conference Reviewer',
         'services.journal': 'Journal Reviewer',
         'edu.title': 'Education',
@@ -66,44 +58,36 @@ const translations = {
         'edu.pku.date': '2021.09 - 2026.06 (Expected)',
         'edu.neu.name': 'Northeastern University',
         'edu.neu.degree': 'B.E. in Software Engineering',
-        'footer': '&copy; 2026 Chenxu Liu. Last updated: April 2026.'
+        'footer': '&copy; 2026 Chenxu Liu. Last updated: September 2026.'
     },
     zh: {
-        'nav.logo': '刘宸绪',
+        'nav.skip': '跳转到正文',
+        'hero.scholarNote': '完整论文列表与引用信息，请前往 Google Scholar 查看。',
+        'hero.focus': '研究领域',
+        'exp.current': '目前',
+        'exp.currentDate': '2026.05 — 至今',
+        'services.note': '含协助审稿',
+        'footer.top': '返回顶部',
         'nav.about': '关于',
         'nav.research': '研究方向',
-        'nav.publications': '学术论文',
         'nav.awards': '荣誉奖项',
         'nav.experience': '工作经历',
         'nav.services': '学术服务',
         'hero.name': '刘宸绪 <span class="name-cn">Chenxu Liu</span>',
         'hero.subtitle': '计算机软件与理论 博士',
-        'hero.workplace': '<a href="https://hunyuan.tencent.com/" target="_blank">腾讯混元团队</a>, 研究员',
-        'hero.affiliation': '毕业于：<a href="https://www.pku.edu.cn" target="_blank">北京大学</a>, <a href="https://cs.pku.edu.cn/" target="_blank">计算机学院</a>',
-        // 'hero.graduation': '预计毕业时间：2026年6月（求职中）',
-        'hero.advisor': '导师：<a href="https://taoxiease.github.io" target="_blank">谢涛 教授</a> <span class="advisor-note">（欧洲科学院院士，ACM/IEEE/AAAS/CCF/CIE Fellow）</span>',
-        'hero.collaborators': '合作导师：<a href="https://profiles.utdallas.edu/wei.yang" target="_blank">杨威 教授</a>、<a href="https://faculty.pku.edu.cn/zhangying" target="_blank">张颖 教授</a>',
+        'hero.workplace': '<a href="https://hunyuan.tencent.com/" target="_blank" rel="noopener noreferrer">腾讯混元团队</a>, 研究员',
+        'hero.affiliation': '毕业于：<a href="https://www.pku.edu.cn" target="_blank" rel="noopener noreferrer">北京大学</a>, <a href="https://cs.pku.edu.cn/" target="_blank" rel="noopener noreferrer">计算机学院</a>',
+        'hero.advisor': '导师：<a href="https://taoxiease.github.io" target="_blank" rel="noopener noreferrer">谢涛 教授</a> <span class="advisor-note">（欧洲科学院院士，ACM/IEEE/AAAS/CCF/CIE Fellow）</span>',
+        'hero.collaborators': '合作导师：<a href="https://profiles.utdallas.edu/wei.yang" target="_blank" rel="noopener noreferrer">杨威 教授</a>、<a href="https://faculty.pku.edu.cn/zhangying" target="_blank" rel="noopener noreferrer">张颖 教授</a>',
         'research.title': '研究方向',
-        'research.intro': '我博士期间研究聚焦于<strong>图形用户界面（GUI）的质量保障与测试</strong>，尤其是 Web GUI 测试。我将传统算法与深度学习模型、大语言模型和 GUI agent相结合，以提升测试效果。',
-        'research.second': '我近期及未来工作围绕对<strong>Code agent与GUI agent</strong>的评测展开，包括且不限于：1. 模型前端能力开放式评测（静态&交互式）；2. 贴合真实场景使用情况的user agent评测；3. 高可信、高安全性、可解释的agent；4. GUI-CLI结合的agent及云-端融合的agent。',
-        'research.card1.title': '状态抽象',
-        'research.card1.desc': '设计结构合并算法与对比学习模型，精确聚类具有重复功能的页面，显著减少冗余探索并提高测试覆盖率。',
-        'research.card2.title': '探索策略',
-        'research.card2.desc': '结合强化学习实现快速探索，利用大语言模型分析识别未覆盖功能，再借助 GUI 智能体对残余代码进行定向覆盖。',
-        'research.card3.title': '测试约简',
-        'research.card3.desc': '开发多层状态抽象结合 Delta Debugging 的方法，有效将冗长操作序列约简为最小故障复现轨迹，大幅降低开发者调试成本。',
-        'research.card4.title': 'GUI/CLI 智能体与 Agentic AI',
-        'research.card4.desc': '在真实场景中评估 GUI 智能体（模糊需求、跨应用任务、系统 API 调用），研究智能体的可解释性、安全性、可信赖性、个性化以及云边融合。',
-        'research.card4.tag': '进行中',
-        'pub.title': '学术论文',
-        'pub.subtitle': '总引用量：510+ &nbsp;|&nbsp; * 标明作为通讯作者的工作',
+        'research.second': '我近期与未来的工作围绕<strong>Code Agent 和 GUI Agent</strong>展开，面向真实使用场景，评测与构建实用、可靠的智能体。研究内容包括模型前端能力的开放式评测，涵盖静态与交互式场景；贴合真实使用场景的用户智能体评测；高可信、高安全性、可解释的智能体；以及结合 GUI 与 CLI、融合云端与终端的智能体。',
+        'research.intro': '我博士期间的研究聚焦于<strong>图形用户界面（GUI）的质量保障与测试</strong>，尤其是 Web GUI 测试。我将传统算法与深度学习模型、大语言模型和 GUI 智能体相结合，以提升测试效果。',
         'awards.title': '部分荣誉奖项',
         'awards.honors': '荣誉称号',
         'awards.h1': '五四奖章，东北大学',
         'awards.h2': '校长奖章，东北大学',
         'awards.h3': '三好学生，北京大学',
         'awards.h4': '优秀团干部，北京大学',
-        'awards.h5': '社会工作奖，北京大学',
         'awards.scholarships': '奖学金',
         'awards.s1': '国家奖学金 (三次)',
         'awards.s2': '宝钢优秀学生奖学金',
@@ -125,7 +109,7 @@ const translations = {
         'exp.e5.role': '副主席兼宣传中心主任',
         'exp.e6.name': '腾讯混元团队',
         'exp.e6.role': '研究员',
-        'services.title': '学术服务（含协助）',
+        'services.title': '学术服务',
         'services.reviewer': '会议审稿人',
         'services.journal': '期刊审稿人',
         'edu.title': '教育背景',
@@ -134,79 +118,93 @@ const translations = {
         'edu.pku.date': '2021.09 - 2026.06',
         'edu.neu.name': '东北大学',
         'edu.neu.degree': '软件工程 工学学士',
-        'footer': '&copy; 2026 刘宸绪 最后更新：2026年5月'
+        'footer': '&copy; 2026 刘宸绪 最后更新：2026年9月'
     }
 };
 
-let currentLang = localStorage.getItem('lang') || 'en';
+// Keep the static English page usable even when browser storage is unavailable.
+let currentLang = 'en';
+try {
+    const savedLanguage = localStorage.getItem('lang');
+    if (Object.hasOwn(translations, savedLanguage)) currentLang = savedLanguage;
+} catch { /* Language switching still works without persistence. */ }
 
-function setLanguage(lang) {
-    currentLang = lang;
-    localStorage.setItem('lang', lang);
-    document.documentElement.lang = lang;
-
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (translations[lang][key]) {
-            el.innerHTML = translations[lang][key];
-        }
-    });
-
-    // Toggle button label
-    document.querySelectorAll('.lang-label').forEach(label => {
-        label.style.display = label.getAttribute('data-lang') === lang ? 'inline' : 'none';
-    });
-}
-
-// Init language on load
-document.addEventListener('DOMContentLoaded', () => {
-    setLanguage(currentLang);
-});
-
-// Language toggle
-document.getElementById('lang-toggle').addEventListener('click', () => {
-    setLanguage(currentLang === 'en' ? 'zh' : 'en');
-});
-
-// Navbar scroll effect
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 10);
-});
-
-// Mobile menu toggle
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
+const langToggle = document.getElementById('lang-toggle');
 
-navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+function updateMenuLabel() {
+    const open = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-label', currentLang === 'zh'
+        ? (open ? '关闭导航' : '展开导航')
+        : (open ? 'Close navigation' : 'Open navigation'));
+}
+
+function setLanguage(lang) {
+    if (!Object.hasOwn(translations, lang)) return;
+    currentLang = lang;
+    document.documentElement.lang = lang;
+    try { localStorage.setItem('lang', lang); } catch { /* Storage is optional. */ }
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const value = translations[lang][el.dataset.i18n];
+        if (value) el.innerHTML = value;
+    });
+    document.querySelectorAll('.lang-label').forEach(label => {
+        label.style.display = label.dataset.lang === lang ? 'inline' : 'none';
+    });
+    langToggle.setAttribute('aria-label', lang === 'en' ? '切换到中文' : 'Switch to English');
+    langToggle.title = lang === 'en' ? '切换到中文' : 'Switch to English';
+    updateMenuLabel();
+}
+
+setLanguage(currentLang);
+langToggle.addEventListener('click', () => {
+    setLanguage(currentLang === 'en' ? 'zh' : 'en');
+    updateNavigation();
 });
 
-// Close menu on link click
-navMenu.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-        navMenu.classList.remove('active');
-    });
+function setMenuOpen(open) {
+    navMenu.classList.toggle('active', open);
+    navToggle.setAttribute('aria-expanded', String(open));
+    updateMenuLabel();
+}
+navToggle.addEventListener('click', () => setMenuOpen(navToggle.getAttribute('aria-expanded') !== 'true'));
+navMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        setMenuOpen(false);
+        navToggle.focus();
+    }
 });
+document.addEventListener('click', event => {
+    if (!event.target.closest('.navbar')) setMenuOpen(false);
+});
+const mobileViewport = window.matchMedia('(max-width: 820px)');
+mobileViewport.addEventListener('change', () => setMenuOpen(false));
 
-// Active nav link on scroll
-const sections = document.querySelectorAll('section[id], header[id]');
-const navLinks = document.querySelectorAll('.nav-menu a');
+const navbar = document.getElementById('navbar');
+const sections = [...document.querySelectorAll('main section[id], main header[id]')];
+const navLinks = [...document.querySelectorAll('.nav-menu a[href^="#"]')];
+let scrollPending = false;
 
-const observerOptions = {
-    rootMargin: '-80px 0px -60% 0px',
-    threshold: 0
-};
-
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const id = entry.target.getAttribute('id');
-            navLinks.forEach(link => {
-                link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
-            });
-        }
+function updateNavigation() {
+    navbar.classList.toggle('scrolled', window.scrollY > 10);
+    const offset = navbar.offsetHeight + 48;
+    const currentSection = sections.filter(section => section.getBoundingClientRect().top <= offset).pop();
+    navLinks.forEach(link => {
+        const active = link.getAttribute('href') === `#${currentSection?.id}`;
+        link.classList.toggle('active', active);
+        if (active) link.setAttribute('aria-current', 'location');
+        else link.removeAttribute('aria-current');
     });
-}, observerOptions);
-
-sections.forEach(section => observer.observe(section));
+    scrollPending = false;
+}
+window.addEventListener('scroll', () => {
+    if (!scrollPending) {
+        scrollPending = true;
+        requestAnimationFrame(updateNavigation);
+    }
+}, { passive: true });
+window.addEventListener('resize', updateNavigation);
+updateNavigation();
